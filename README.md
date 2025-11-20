@@ -1,5 +1,4 @@
-Hello, I'm Joshua Berry, you can call me Josh, Ding, anything you like really.
-Just dont call me late for dinner.
+Hello, I'm Joshua Berry.
 
 Aspiring Developer | Automation & Data Ops | Learning in Public 
 
@@ -16,7 +15,7 @@ What I’m Learning Right Now
 
 Current Project
 
-🔧 Forward Array Pipeline
+Forward Array Pipeline
 A real-time market data system using FastAPI + Python, logging prices locally for analysis.
 
 This project is part of my journey into automation, data engineering, and backend dev.
