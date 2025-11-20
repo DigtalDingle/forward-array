@@ -1,0 +1,39 @@
+# forward-array
+
+Forward Array is a small, automated data pipeline built with Python to fetch, store, and analyze market prices locally.  
+It’s my personal lab for learning automation, data ops, and Python by doing.
+
+---
+
+## 🌱 About Me
+
+Hello, I’m **Joshua Berry** – an aspiring developer focused on:
+
+- Automation & data operations  
+- Building small, real systems instead of toy examples  
+- Learning in public and documenting the journey
+
+---
+
+## 🚀 What Forward Array Does
+
+Forward Array currently:
+
+- Polls price data on a schedule and saves it locally
+- Updates positions / gains using the latest prices
+- Computes portfolio-level metrics (PnL and related stats)
+- Keeps a local log so everything still works offline
+
+This project will grow over time as I learn more about Python, automation, and system design.
+
+---
+
+## 📂 Project Structure
+
+```text
+forward-array/
+├── main.py                        # Orchestrates / entry point (to be refined)
+├── price_poller.py                # Fetches and logs latest prices
+├── update_gains_from_positions.py # Updates gains using latest data
+├── README.md                      # You are here
+└── .gitattributes                 # Repo settings
