@@ -1,0 +1,299 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Josh_Deep_User_Model_v3",
+  "description": "Complete cognitive, behavioral, emotional, and analytical representation of Joshua Berry for agent-level reasoning. Designed for absolute precision and noise-free understanding.",
+
+  "type": "object",
+  "properties": {
+
+    "identity": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "const": "Joshua Berry" },
+        "aliases": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": ["Digital-Dingle", "Josh", "Dingle"]
+        },
+        "coreDrive": {
+          "type": "string",
+          "description": "Josh seeks mastery, truth, and accuracy over comfort. Prefers systems thinking over superficial guidance."
+        }
+      }
+    },
+
+    "cognition": {
+      "type": "object",
+      "description": "How Josh thinks, processes information, and detects patterns.",
+      "properties": {
+        "thinkingStyle": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": [
+            "systems_thinker",
+            "pattern_driven",
+            "contextual_reasoner",
+            "cause_effect_analyzer",
+            "narrative_logic_interpreter"
+          ]
+        },
+
+        "coreTraits": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": [
+            "hyper_observant",
+            "deeply_self_aware",
+            "logic_first",
+            "truth_seeking",
+            "high_personal_accountability",
+            "fast_adaptive_reasoning"
+          ]
+        },
+
+        "quirks": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": [
+            "replays_scenarios_until_logically_satisfied",
+            "needs_mechanical_explanations",
+            "distrusts_vague_language",
+            "anchored_to_structure_over_sentiment",
+            "momentarily_overfocuses_on_single_candle_moves",
+            "recognizes_emotions_in_real_time",
+            "requires_shared_understanding_before_proceeding"
+          ]
+        }
+      }
+    },
+
+    "emotionalLogic": {
+      "type": "object",
+      "description": "Josh experiences emotion but processes it through structured reasoning.",
+      "properties": {
+        "emotionalPatterns": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": [
+            "fear_triggers_when_structure_breaks",
+            "confidence_increases_with_pattern_repetition",
+            "uncertainty_from_unexplained_movements",
+            "calm_returns_after_structural_explanation",
+            "self-awareness_of_emotional_state",
+            "reliance_on_rationale_for_equilibrium"
+          ]
+        },
+        "strengths": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": [
+            "emotion_processed_through_logic",
+            "rarely_self-deceptive",
+            "comfortable_revising_opinions",
+            "able_to_extract_lessons_from_reaction_patterns",
+            "stays_engaged_under_pressure"
+          ]
+        }
+      }
+    },
+
+    "underPressure": {
+      "type": "object",
+      "description": "How Josh behaves in stressful, high-volatility, or ambiguous situations.",
+      "properties": {
+        "reactions": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": [
+            "heightened_pattern_scanning",
+            "focus_on_hidden_risks",
+            "defaults_to_worst_case_then_climbs_back",
+            "requests_probabilities_to_reanchor",
+            "zoom_out_to_reestablish_context",
+            "seeks_structural_coherence"
+          ]
+        },
+        "calmingMechanisms": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": [
+            "noise_filtering",
+            "structural_explanation",
+            "context_compression",
+            "ranked_probability_spread",
+            "trend_integrity_check",
+            "logic_reaffirmation"
+          ]
+        }
+      }
+    },
+
+    "communicationStyle": {
+      "type": "object",
+      "description": "How agents must speak to Josh for maximum clarity and trust.",
+      "properties": {
+        "format": { 
+          "type": "string",
+          "default": "clean_spacing_short_paragraphs_no_fluff"
+        },
+        "tone": {
+          "type": "string",
+          "default": "direct_honest_analytical_non_emotional"
+        },
+        "requirements": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": [
+            "provide_mechanics_not_generalities",
+            "no_flattery_or_reassurance",
+            "explicit_reasoning_paths",
+            "call_out_bias_when_detected",
+            "explain_structure_not_sentiment",
+            "provide_probabilities_not_predictions"
+          ]
+        },
+        "triggerPhrases": {
+          "type": "object",
+          "properties": {
+            "interlock": {
+              "type": "string",
+              "default": "User requests verification of identical mental model."
+            },
+            "what_do_you_see": {
+              "type": "string",
+              "default": "User wants immediate tape and structure read with zero fluff."
+            },
+            "anything_new": {
+              "type": "string",
+              "default": "User wants hidden signals, unspoken context, or new structural implications."
+            }
+          }
+        }
+      }
+    },
+
+    "marketBehaviorModel": {
+      "type": "object",
+      "description": "How Josh interprets markets, risk, and structure.",
+      "properties": {
+        "decisionStyle": {
+          "type": "string",
+          "default": "confluence_based_decision_maker"
+        },
+
+        "requiredSignals": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": [
+            "structure",
+            "momentum_health",
+            "volume_confirmation",
+            "recapture_levels",
+            "BTC_lead_lag",
+            "orderbook_anomalies",
+            "liquidity_zones",
+            "sentiment_catalysts"
+          ]
+        },
+
+        "risks": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": [
+            "overweighting_single_candle_moves",
+            "catastrophic_projection_under_uncertainty",
+            "anchoring_to_expected_levels",
+            "noise_pollution_overloading_pattern_model"
+          ]
+        }
+      }
+    },
+
+    "ZECmodel": {
+      "type": "object",
+      "description": "Josh's specific relationship with ZEC.",
+      "properties": {
+        "role": { "type": "string", "default": "benchmark_asset_proof_of_system" },
+        "view": {
+          "type": "string",
+          "default": "high_volatility_structural_opportunity_asset"
+        },
+        "keyLevels": {
+          "type": "array",
+          "items": { "type": "number" },
+          "default": [380, 450, 520, 584]
+        },
+        "coreInterpretationRules": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": [
+            "ZEC_moves_exaggerate_orderflow",
+            "BTC_sets_direction_ZEC_magnifies",
+            "sentiment_catalysts_can_override_structure",
+            "volume_absorption_determines_rally_strength",
+            "recapture_levels_signal_regime_shifts"
+          ]
+        }
+      }
+    },
+
+    "noiseSensitivity": {
+      "type": "object",
+      "description": "Josh's strongest psychological vulnerability and how agents must handle it.",
+      "properties": {
+        "sensitivityLevel": { "type": "string", "default": "high" },
+        "noiseTriggers": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": [
+            "unexplained_chart_moves",
+            "conflicting_timeframes",
+            "ambiguous_agent_responses",
+            "missing_mechanics",
+            "data_without_context"
+          ]
+        },
+        "agentResponsibilities": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": [
+            "explain_signal_vs_noise",
+            "anchor_user_with_structure",
+            "restore_context_when_lost",
+            "articulate_hidden_mechanics",
+            "detect_when_user_is_noise_overloaded"
+          ]
+        }
+      }
+    },
+
+    "growthTrajectory": {
+      "type": "object",
+      "properties": {
+        "evolvingTraits": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": [
+            "becoming_less_reactive_more_predictive",
+            "strengthening_system_based_confidence",
+            "increasing_tolerance_for_volatility",
+            "tightening_feedback_loops",
+            "developing_mastery_not_comfort"
+          ]
+        }
+      }
+    }
+  },
+
+  "required": [
+    "identity",
+    "cognition",
+    "emotionalLogic",
+    "underPressure",
+    "communicationStyle",
+    "marketBehaviorModel",
+    "ZECmodel",
+    "noiseSensitivity",
+    "growthTrajectory"
+  ]
+}
